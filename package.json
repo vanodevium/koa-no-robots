@@ -1,0 +1,32 @@
+{
+  "name": "koa-no-robots",
+  "version": "1.0.0",
+  "description": "Koa middleware for different robots.txt content on different domains",
+  "keywords": [
+    "robots",
+    "robots.txt",
+    "koa",
+    "koajs"
+  ],
+  "homepage": "https://github.com/vanodevium/koa-no-robots",
+  "bugs": "https://github.com/vanodevium/koa-no-robots/issues",
+  "repository": "https://github.com/vanodevium/koa-no-robots",
+  "license": "MIT",
+  "author": {
+    "name": "Vano Devium",
+    "email": "vano@devium.me",
+    "url": "https://www.devium.me"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test mocha --check-leaks -R spec -t 5000 test/*.test.js"
+  },
+  "devDependencies": {
+    "koa": "2.14.2",
+    "mocha": "10.2.0",
+    "supertest": "6.3.3"
+  }
+}
